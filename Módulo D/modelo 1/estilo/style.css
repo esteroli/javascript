@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font: normal 15pt Arial;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    overflow: hidden;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.189);
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div {
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
