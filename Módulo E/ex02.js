@@ -1,5 +1,5 @@
-var c2 = 1
+var c = 1
 do {
     console.log('Hello, world!')
-    c2++
-} while (c2 <= 6)
+    c++
+} while (c <= 10)
