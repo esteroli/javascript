@@ -1,37 +1,39 @@
 @charset "UTF-8";
 
 body {
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom, rgb(190, 252, 190), rgb(145, 248, 145), rgb(131, 248, 131));
+    background-color: rgb(239, 165, 239);
     font: normal 15pt Arial;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: center;
+    align-content: space-around;
     justify-content: center;
     margin: 10px;
     overflow: hidden;
 }
 
 header {
-    color: black;
+    color: white;
     text-align: center;
 }
 
-section {
+main {
     background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(4, 0, 0, 0.334);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.189);
     width: 500px;
-    padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 
 div {
     margin: 10px;
+}
+
+input {
+    margin: 5px;
+    align-items: normal;
 }
 
 footer {
