@@ -5,12 +5,11 @@ body {
     font: normal 15pt Arial;
     height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     align-items: center;
     align-content: space-around;
     justify-content: center;
     margin: 10px;
-    overflow: hidden;
 }
 
 header {
@@ -33,7 +32,6 @@ div {
 
 input {
     margin: 5px;
-    align-items: normal;
 }
 
 footer {
