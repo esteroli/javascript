@@ -13,16 +13,15 @@ body {
 }
 
 header {
-    color: white;
-    text-align: center;
+    margin: 5px;
 }
 
 main {
     background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.189);
-    width: 500px;
-    text-align: left;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.189);
+    width: 400px;
+    text-align: center
 }
 
 
