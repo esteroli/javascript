@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+    background-color: rgb(240, 240, 152);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -13,12 +14,7 @@ body {
     margin: 10px;
 }
 
-header {
-    color: white;
-    text-align: center;
-}
-
-section {
+main {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.189);
@@ -27,13 +23,10 @@ section {
     text-align: center;
 }
 
-
 div {
     margin: 10px;
 }
 
 footer {
-    color: white;
-    text-align: center;
     font-style: italic;
 }
