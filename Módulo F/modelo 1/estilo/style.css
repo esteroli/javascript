@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(56, 87, 93);
+    font: normal 15pt Arial;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    margin: 10px;
+}
+
+header {
+    margin: 5px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0.395);
+}
+
+main {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.189);
+    width: 510px;
+    text-align: center
+}
+
+
+div {
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+select#lista {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
